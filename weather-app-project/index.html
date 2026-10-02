@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A professional bilingual Weather App built with HTML, CSS and JavaScript.">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <span class="eyebrow" data-i18n="eyebrow">JAVASCRIPT PROJECT</span>
+        <h1 data-i18n="title">Weather App</h1>
+        <p data-i18n="subtitle">Check the weather for any city.</p>
+      </div>
+      <div class="actions">
+        <button id="languageBtn" class="icon-btn" type="button">FA</button>
+        <button id="themeBtn" class="icon-btn" type="button" aria-label="Toggle theme">☾</button>
+      </div>
+    </header>
+
+    <section class="card">
+      <form id="searchForm" class="search-form">
+        <input id="cityInput" type="text" maxlength="60" autocomplete="off"
+          placeholder="Enter city name..." data-i18n-placeholder="placeholder">
+        <button class="search-btn" type="submit" data-i18n="search">Search</button>
+      </form>
+
+      <p id="message" class="message" aria-live="polite"></p>
+
+      <section id="weatherCard" class="weather" hidden>
+        <div class="weather-head">
+          <div>
+            <span id="cityName" class="city"></span>
+            <span id="countryName" class="country"></span>
+          </div>
+          <div id="weatherIcon" class="weather-icon">☀</div>
+        </div>
+
+        <div class="temperature">
+          <span id="temperature">--</span><sup>°C</sup>
+        </div>
+        <p id="condition" class="condition">--</p>
+
+        <div class="details">
+          <div>
+            <span>💧</span>
+            <strong id="humidity">--%</strong>
+            <small data-i18n="humidity">Humidity</small>
+          </div>
+          <div>
+            <span>💨</span>
+            <strong id="wind">-- km/h</strong>
+            <small data-i18n="wind">Wind</small>
+          </div>
+          <div>
+            <span>🌡</span>
+            <strong id="feels">--°C</strong>
+            <small data-i18n="feels">Feels like</small>
+          </div>
+        </div>
+      </section>
+
+      <div id="emptyState" class="empty">
+        <div class="cloud">☁</div>
+        <h2 data-i18n="emptyTitle">Search for a city</h2>
+        <p data-i18n="emptyText">Enter a city name to see weather information.</p>
+      </div>
+    </section>
+
+    <footer data-i18n="footer">Built with HTML, CSS and JavaScript.</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
