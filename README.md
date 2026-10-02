@@ -133,15 +133,54 @@ A professional, responsive, and bilingual Digital Clock and Stopwatch built with
 
 ---
 
+### 🎯 Quiz App
+
+A professional, responsive, and bilingual JavaScript Quiz App built with HTML, CSS, and JavaScript.
+
+**Features:**
+
+* 10 JavaScript questions
+* 15-second timer for each question
+* Correct and wrong answer detection
+* Final score
+* Accuracy percentage
+* Restart quiz
+* English and Persian language support
+* Dark / Light mode
+* LocalStorage for language and theme
+* Responsive design
+* Modern user interface
+* No external API or library required
+
+**Technologies practiced:**
+
+* Arrays
+* Objects
+* Functions
+* Conditions
+* DOM manipulation
+* Event listeners
+* `setInterval()`
+* LocalStorage
+* Dynamic UI updates
+
+🔗 [View Source Code](./quiz-app)
+🚀 [Live Demo](https://kramatniamohammadtaha-hue.github.io/JavaScript-Projects/quiz-app/)
+
+---
+
 ## 🛠️ Technologies
 
 The projects in this repository use:
 
 * **HTML5** — Structure and semantic markup
 * **CSS3** — Styling, responsive layouts, and dark/light themes
-* **JavaScript** — Application logic and DOM manipulation
+* **JavaScript** — Application logic
 * **DOM** — Interactive web page elements
-* **Date Object** — Working with dates and time
+* **Arrays & Objects** — Data management
+* **Functions** — Reusable application logic
+* **Event Listeners** — User interaction
+* **Date & Time** — Working with dates and timers
 * **Fetch API** — Requesting data from APIs
 * **Async / Await** — Handling asynchronous operations
 * **JSON** — Working with API data
@@ -161,17 +200,18 @@ The goal is to improve my JavaScript skills by building real-world projects and 
 
 ## 📈 Progress
 
-This repository is continuously updated with new JavaScript projects as I continue learning and improving my programming skills.
-
-Current projects:
+This repository currently contains **6 JavaScript projects**:
 
 * ✅ BMI Calculator
 * ✅ Calculator
 * ✅ To-Do List
 * ✅ Weather App
 * ✅ Digital Clock & Stopwatch
+* ✅ Quiz App
 
-More projects coming soon... 🚀
+This JavaScript project collection is now complete for this stage of my learning journey.
+
+More advanced projects may be added in the future... 🚀
 
 ---
 
