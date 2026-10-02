@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A professional bilingual calculator built with HTML, CSS and JavaScript.">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <span class="eyebrow" data-i18n="eyebrow">JAVASCRIPT PROJECT</span>
+        <h1 data-i18n="title">Calculator</h1>
+        <p data-i18n="subtitle">A simple, fast and responsive calculator.</p>
+      </div>
+      <div class="actions">
+        <button id="languageBtn" class="icon-btn" type="button">FA</button>
+        <button id="themeBtn" class="icon-btn" type="button" aria-label="Toggle theme">☾</button>
+      </div>
+    </header>
 
+    <section class="card">
+      <div class="inputs">
+        <label for="number1" data-i18n="number1">First number</label>
+        <input id="number1" type="number" step="any" placeholder="Enter a number" data-i18n-placeholder="placeholder">
+
+        <label for="number2" data-i18n="number2">Second number</label>
+        <input id="number2" type="number" step="any" placeholder="Enter a number" data-i18n-placeholder="placeholder">
+      </div>
+
+      <div class="operations" aria-label="Calculator operations">
+        <button class="op-btn" data-operation="add" type="button"><span>+</span><small data-i18n="add">Add</small></button>
+        <button class="op-btn" data-operation="subtract" type="button"><span>−</span><small data-i18n="subtract">Subtract</small></button>
+        <button class="op-btn" data-operation="multiply" type="button"><span>×</span><small data-i18n="multiply">Multiply</small></button>
+        <button class="op-btn" data-operation="divide" type="button"><span>÷</span><small data-i18n="divide">Divide</small></button>
+      </div>
+
+      <div class="result-box">
+        <div class="result-label" data-i18n="result">Result</div>
+        <output id="result" aria-live="polite">—</output>
+        <p id="message" class="message" data-i18n="ready">Enter two numbers and choose an operation.</p>
+      </div>
+
+      <button id="resetBtn" class="reset-btn" type="button" data-i18n="reset">Reset</button>
+    </section>
+
+    <footer data-i18n="footer">Built with HTML, CSS and JavaScript.</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
