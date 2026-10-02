@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A professional bilingual To-Do List built with HTML, CSS and JavaScript.">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <span class="eyebrow" data-i18n="eyebrow">JAVASCRIPT PROJECT</span>
+        <h1 data-i18n="title">To-Do List</h1>
+        <p data-i18n="subtitle">Organize your tasks and keep moving forward.</p>
+      </div>
+      <div class="actions">
+        <button id="languageBtn" class="icon-btn" type="button">FA</button>
+        <button id="themeBtn" class="icon-btn" type="button" aria-label="Toggle theme">☾</button>
+      </div>
+    </header>
 
+    <section class="card">
+      <form id="taskForm" class="add-form">
+        <input id="taskInput" type="text" maxlength="120" autocomplete="off"
+               placeholder="Enter a task..." data-i18n-placeholder="placeholder">
+        <button id="addBtn" class="add-btn" type="submit" data-i18n="add">Add Task</button>
+      </form>
+
+      <div class="stats">
+        <div><strong id="totalCount">0</strong><span data-i18n="total">Total</span></div>
+        <div><strong id="completedCount">0</strong><span data-i18n="completed">Completed</span></div>
+        <div><strong id="pendingCount">0</strong><span data-i18n="pending">Pending</span></div>
+      </div>
+
+      <div id="emptyState" class="empty">
+        <div class="empty-icon">✓</div>
+        <h2 data-i18n="emptyTitle">No tasks yet</h2>
+        <p data-i18n="emptyText">Add your first task to get started.</p>
+      </div>
+
+      <ul id="taskList" class="task-list" aria-live="polite"></ul>
+
+      <button id="clearBtn" class="clear-btn" type="button" data-i18n="clear">Clear All Tasks</button>
+    </section>
+
+    <footer data-i18n="footer">Built with HTML, CSS and JavaScript.</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
