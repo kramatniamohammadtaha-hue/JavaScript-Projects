@@ -27,7 +27,39 @@ A professional, responsive, and bilingual BMI Calculator built with HTML, CSS, a
 * DOM
 * LocalStorage
 
-👉 [View BMI Calculator](./bmi-calculator)
+🔗 [View Source Code](./bmi-calculator)
+🚀 [Live Demo](https://kramatniamohammadtaha-hue.github.io/JavaScript-Projects/bmi-calculator/)
+
+---
+
+### 🧮 Calculator
+
+A professional, responsive, and bilingual calculator built with HTML, CSS, and JavaScript.
+
+**Features:**
+
+* 🇬🇧 English and 🇮🇷 Persian language support
+* 🌙 Dark / Light mode
+* 📱 Fully responsive design
+* ➕ Addition
+* ➖ Subtraction
+* ✖️ Multiplication
+* ➗ Division
+* 🚫 Division-by-zero protection
+* ✅ Input validation
+* 🔄 Reset functionality
+* 💾 Language and theme preferences saved with LocalStorage
+
+**Technologies:**
+
+* HTML5
+* CSS3
+* JavaScript
+* DOM
+* LocalStorage
+
+🔗 [View Source Code](./calculator)
+🚀 [Live Demo](https://kramatniamohammadtaha-hue.github.io/JavaScript-Projects/calculator/)
 
 ---
 
