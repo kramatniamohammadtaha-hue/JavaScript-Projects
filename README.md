@@ -100,6 +100,39 @@ A professional, responsive, and bilingual Weather App built with HTML, CSS, and 
 
 ---
 
+### ⏱️ Digital Clock & Stopwatch
+
+A professional, responsive, and bilingual Digital Clock and Stopwatch built with HTML, CSS, and JavaScript.
+
+**Features:**
+
+* Real-time digital clock
+* Current date display
+* Stopwatch with centisecond precision
+* Start, Pause and Reset
+* Lap time recording
+* English and Persian language support
+* Dark / Light mode
+* LocalStorage for language and theme preferences
+* Responsive design
+* Modern user interface
+
+**Technologies practiced:**
+
+* Date Object
+* `Date.now()`
+* `setInterval()`
+* DOM manipulation
+* Event listeners
+* LocalStorage
+* `Intl.DateTimeFormat`
+* Responsive Web Design
+
+🔗 [View Source Code](./digital-clock-stopwatch)
+🚀 [Live Demo](https://kramatniamohammadtaha-hue.github.io/JavaScript-Projects/digital-clock-stopwatch/)
+
+---
+
 ## 🛠️ Technologies
 
 The projects in this repository use:
@@ -108,6 +141,7 @@ The projects in this repository use:
 * **CSS3** — Styling, responsive layouts, and dark/light themes
 * **JavaScript** — Application logic and DOM manipulation
 * **DOM** — Interactive web page elements
+* **Date Object** — Working with dates and time
 * **Fetch API** — Requesting data from APIs
 * **Async / Await** — Handling asynchronous operations
 * **JSON** — Working with API data
@@ -135,6 +169,7 @@ Current projects:
 * ✅ Calculator
 * ✅ To-Do List
 * ✅ Weather App
+* ✅ Digital Clock & Stopwatch
 
 More projects coming soon... 🚀
 
