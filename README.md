@@ -66,6 +66,40 @@ A professional and responsive To-Do List application built with HTML, CSS, and J
 
 ---
 
+### 🌦️ Weather App
+
+A professional, responsive, and bilingual Weather App built with HTML, CSS, and JavaScript.
+
+**Features:**
+
+* Search weather by city
+* Display current temperature
+* Display humidity
+* Display wind speed
+* Display feels-like temperature
+* Weather condition and icon
+* English and Persian language support
+* Dark / Light mode
+* Responsive design
+* Real-time weather data
+* Input validation and error handling
+* LocalStorage for language and theme preferences
+
+**Technologies practiced:**
+
+* Fetch API
+* Async / Await
+* JSON
+* REST API
+* DOM manipulation
+* LocalStorage
+* API requests and error handling
+
+🔗 [View Source Code](./weather-app)
+🚀 [Live Demo](https://kramatniamohammadtaha-hue.github.io/JavaScript-Projects/weather-app/)
+
+---
+
 ## 🛠️ Technologies
 
 The projects in this repository use:
@@ -74,6 +108,10 @@ The projects in this repository use:
 * **CSS3** — Styling, responsive layouts, and dark/light themes
 * **JavaScript** — Application logic and DOM manipulation
 * **DOM** — Interactive web page elements
+* **Fetch API** — Requesting data from APIs
+* **Async / Await** — Handling asynchronous operations
+* **JSON** — Working with API data
+* **REST APIs** — Connecting applications to external services
 * **LocalStorage** — Saving user data and preferences
 * **Responsive Web Design** — Mobile and desktop support
 
@@ -83,13 +121,20 @@ The projects in this repository use:
 
 This repository contains my JavaScript learning projects, experiments, and practical exercises.
 
-The goal is to improve my JavaScript skills by building real projects and gradually working with more advanced concepts.
+The goal is to improve my JavaScript skills by building real-world projects and gradually working with more advanced concepts.
 
 ---
 
 ## 📈 Progress
 
-This repository will be continuously updated with new JavaScript projects as I continue learning and improving my programming skills.
+This repository is continuously updated with new JavaScript projects as I continue learning and improving my programming skills.
+
+Current projects:
+
+* ✅ BMI Calculator
+* ✅ Calculator
+* ✅ To-Do List
+* ✅ Weather App
 
 More projects coming soon... 🚀
 
