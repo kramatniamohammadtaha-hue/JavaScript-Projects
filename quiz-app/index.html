@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A professional bilingual JavaScript Quiz App.">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <p class="eyebrow">JavaScript Project</p>
+    <h1 data-i18n="title">JavaScript Quiz</h1>
+  </div>
+  <div class="controls">
+    <button id="languageBtn" class="icon-btn" type="button">FA</button>
+    <button id="themeBtn" class="icon-btn" type="button">☾</button>
+  </div>
+</header>
+
+<main class="container">
+  <section id="startScreen" class="card start-screen">
+    <div class="quiz-icon">?</div>
+    <span class="badge" data-i18n="challenge">CHALLENGE</span>
+    <h2 data-i18n="ready">Ready to test your JavaScript?</h2>
+    <p data-i18n="intro">Answer the questions, beat the timer, and see your final score.</p>
+    <div class="stats">
+      <div><strong id="questionCount">10</strong><span data-i18n="questions">Questions</span></div>
+      <div><strong>15s</strong><span data-i18n="perQuestion">Per Question</span></div>
+    </div>
+    <button id="startBtn" class="primary big-btn" type="button" data-i18n="start">Start Quiz</button>
+  </section>
+
+  <section id="quizScreen" class="card quiz-screen hidden">
+    <div class="quiz-top">
+      <div>
+        <span id="questionNumber" class="muted">Question 1 / 10</span>
+        <h2 id="questionText">Question</h2>
+      </div>
+      <div class="timer" id="timer">15</div>
+    </div>
+
+    <div class="progress"><div id="progressBar"></div></div>
+    <div id="answers" class="answers"></div>
+
+    <div class="quiz-footer">
+      <span id="scoreText" class="muted">Score: 0</span>
+      <button id="nextBtn" class="primary" type="button" data-i18n="next">Next</button>
+    </div>
+  </section>
+
+  <section id="resultScreen" class="card result-screen hidden">
+    <div class="result-icon">✓</div>
+    <span class="badge" data-i18n="complete">COMPLETE</span>
+    <h2 data-i18n="resultTitle">Quiz Completed!</h2>
+    <p id="resultMessage">Great work!</p>
+
+    <div class="score-circle">
+      <strong id="finalScore">0</strong>
+      <span data-i18n="points">Points</span>
+    </div>
+
+    <div class="result-stats">
+      <div><strong id="correctCount">0</strong><span data-i18n="correct">Correct</span></div>
+      <div><strong id="wrongCount">0</strong><span data-i18n="wrong">Wrong</span></div>
+      <div><strong id="percentage">0%</strong><span data-i18n="accuracy">Accuracy</span></div>
+    </div>
+
+    <button id="restartBtn" class="primary big-btn" type="button" data-i18n="restart">Try Again</button>
+  </section>
+</main>
+
+<footer>
+  <p>Built with HTML, CSS & JavaScript • <span data-i18n="footer">Part of my JavaScript learning journey</span> 🚀</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
